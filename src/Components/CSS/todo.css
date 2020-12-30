@@ -1,0 +1,145 @@
+body{
+ 
+  
+}
+h1{
+  font-size: 38px;
+}
+
+.one{
+margin-left:-100px;
+ padding-left:10px;
+ text-align:left;
+}
+.two{
+margin-left:210px;
+ 
+}
+.six{
+margin-left:200px;
+margin-right:-20px;
+}
+
+.three{
+margin-left:-50px;
+ 
+}
+.four{
+ margin-left:-150px;
+ 
+}
+.five{
+margin-left:90px;
+ 
+}
+
+
+
+
+input[type=text] {
+  width: 25%;
+ 
+  padding: 10px 10px;
+  margin: 8px 0;
+ 
+  box-sizing: border-box;
+  border: 1px solid;
+ box-position:left;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+input[type=email] {
+  width: 70%;
+ 
+  padding: 10px 12px;
+  margin: 8px 0;
+  
+ padding-left:20px;
+ 
+ 
+ box-position:left;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+input[type=password] {
+   width: 25%;
+ 
+  padding: 10px 10px;
+  margin: 8px 0;
+ margin-left:20px;
+  box-sizing: border-box;
+  border: 1px solid;
+ margin-right:-21px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit] {
+  background-color:#80ff00;
+  border: none;
+  color: white;
+  font-size:15px;
+  padding: 20px 80px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  /* cursor: pointer; */
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 22px;
+}
+
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-left:30px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+ 
+  border-style: hidden;
+  border-radius: 15px;
+  padding:18px;
+  text-align: center;
+  box-shadow: 0 8px 6px -6px black;
+  
+ 
+  
+}
+@media screen and (max-width:900px){
+
+    .main-contianer{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly; 
+      
+    }
+  
+  }
+
